@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class leetcode003 {
+public class leetcode128 {
     public int longestConsecutive(int[] nums) {
         /*结题思路 如果一个数组是[100, 90, 100, 200, 4, 200, 3, 2, 1]
          * 先去重
@@ -31,7 +31,7 @@ public class leetcode003 {
     }
 
     public static void main(String[] args) {
-        leetcode003 leetcode003 = new leetcode003();
+        leetcode128 leetcode003 = new leetcode128();
         var max_value = leetcode003.longestConsecutive(new int[]{0, 3, 7, 2, 5, 8, 4, 6, 0, 1});
         System.out.println(max_value);
     }
