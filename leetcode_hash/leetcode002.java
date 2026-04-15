@@ -13,7 +13,7 @@ public class leetcode002 {
             String s = new String(chars);
             map.computeIfAbsent(s, _ -> new ArrayList<>()).add(str);
         }
-        return map.values().stream().toList();
+        return new ArrayList<>(map.values());
     }
 
     public static void main(String[] args) {
