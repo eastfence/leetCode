@@ -5,15 +5,6 @@ public class N160 {
     * 为什么这么做？
     * 1. 消除长度差
     * 2. 某个点当指针A和B所指向的node在内存中地址相等时 说明已经找到了交点*/
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
 
